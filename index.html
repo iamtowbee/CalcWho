@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CalcWho - JS Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+        <input id="display">
+        <div class="allBtns">
+          <div class="col">
+            <div class="row">
+              <!-- AC, (), % -->
+              <button class="btn btnGrey">AC</button>
+              <button class="btn btnGrey">( )</button>
+              <button class="btn btnGrey">%</button>
+            </div>
+            <div class="row">
+              <!-- 7, 8, 9 -->
+              <button class="btn btnNormal">7</button>
+              <button class="btn btnNormal">8</button>
+              <button class="btn btnNormal">9</button>
+            </div>
+            <div class="row">
+              <!-- 4, 5, 6 -->
+              <button class="btn btnNormal">4</button>
+              <button class="btn btnNormal">5</button>
+              <button class="btn btnNormal">6</button>
+            </div>
+            <div class="row">
+              <!-- 1, 2, 3 -->
+              <button class="btn btnNormal">1</button>
+              <button class="btn btnNormal">2</button>
+              <button class="btn btnNormal">3</button>
+            </div>
+            <div class="row">
+              <!-- 0, ., <= -->
+              <button class="btn btnNormal" id="zeroBtn">0</button>
+              <button class="btn btnNormal" id="dotBtn">.</button>
+              <button class="btn btnNormal" id="delBtn">&gt;</button>
+            </div>
+          </div>
+          <div class="col">
+            <!-- /* - */ -->
+            <button class="btn btnOrange" id="timesBtn">x</button>
+            <button class="btn btnOrange" id="minusBtn">−</button>
+            <button class="btn btnOrange" id="plusBtn">+</button>
+            <button class="btn btnOrange" id="equalsBtn">=</button>
+            <button class="btn btn btnOrange" id="divideBtn">/</button>
+          </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
