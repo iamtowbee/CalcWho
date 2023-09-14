@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--bg-color1);
+  font-family: 'Rubik', sans-serif;
 }
 
 .calculator {
@@ -37,13 +40,19 @@ body {
   width: 30rem;
   outline: none;
   border: none;
-  height: 50rem;
+  height: 30rem;
   color: var(--display-text);
   font-size: 4.5rem;
   text-align: right;
   padding: 2rem;
-  margin-bottom: 10rem;
+  margin: 15rem 0 0 0;
   align-self: left;
+}
+
+input[type=number], input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
 
 .allBtns {
